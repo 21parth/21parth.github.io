@@ -7,4 +7,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+}
 
+.container{
+
+}
+
+.container .text{
+    color: #000;
+    font-size: 35px;
+    position: relative;
+}
+
+.container .text.last-part::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-left: 2px solid black;
+}
