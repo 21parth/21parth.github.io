@@ -7,8 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.section{
-    min-height: 100vh;
+section{
+    padding: 130px 0;
+
+}
+
+.first-section{
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,17 +21,18 @@
     overflow: hidden;
 }
 
-.container{
-
+.container-text{
+    width: 800px;
+    overflow: hidden;
 }
 
-.container .text{
+.container-text .text{
     color: #000;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
 }
 
-.container .text.last-part::before{
+.container-text .text.last-part::before{
     content: "";
     position: absolute;
     top: 0;
@@ -35,12 +41,12 @@
     height: 100%;
     background-color: white;
     border-left: 2px solid black;
-    animation: typing-animation 4s steps(12) infinite;
+    animation: typing-animation 5s steps(12) infinite;
 }
 
 @keyframes typing-animation {
     40%, 60%{
-        left: 100%
+        left: calc(100% + 4px);
     }
     100%{
         left: 0%;
