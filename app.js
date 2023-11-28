@@ -5,11 +5,9 @@ const setText = () =>{
     },0);
     setTimeout(()=>{
         text.textContent = "learn new stuffs.";
-    },5000);
-    setTimeout(()=>{
-        text.textContent = "contribute to the tech community.";
-    },10000);
+    },4000);
 }
 
 setText();
-setInterval(setText,15000)
+setInterval(setText,8000)
+
