@@ -44,6 +44,9 @@ section{
     animation: typing-animation 4s steps(12) infinite;
 }
 
+.link{
+    margin-right: 10px
+}
 @keyframes typing-animation {
     40%, 60%{
         left: calc(100% + 4px);
