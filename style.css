@@ -32,6 +32,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: white;
     border-left: 2px solid black;
+    animation: typing-animation 4s steps(12) infinite;
+}
+
+@keyframes typing-animation {
+    40%, 60%{
+        left: 100%
+    }
+    100%{
+        left: 0%;
+    }
 }
