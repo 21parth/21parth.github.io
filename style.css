@@ -28,7 +28,7 @@ section{
 
 .container-text .text{
     color: #000;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
 }
 
@@ -54,4 +54,8 @@ section{
     100%{
         left: 0%;
     }
+}
+
+.social-links-container{
+    margin-bottom: 1rem!important;
 }
