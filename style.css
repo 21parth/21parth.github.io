@@ -6,18 +6,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    line-height: 1.5;
+}
 section{
     padding: 130px 0;
 
 }
 
 .first-section{
-    min-height: 70vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFF;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -27,7 +29,7 @@ section{
 }
 
 .container-text .text{
-    color: #000;
+    color: white;
     font-size: 25px;
     position: relative;
 }
@@ -39,8 +41,8 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
-    border-left: 2px solid black;
+    background-color: black;
+    border-left: 2px solid white;
     animation: typing-animation 4s steps(12) infinite;
 }
 
@@ -58,4 +60,37 @@ section{
 
 .social-links-container{
     margin-bottom: 1rem!important;
+}
+
+
+.pp-year-lable{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 12px 50px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.pp-sub-heading{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.pp-position-lable{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.pp-heading{
+    color: white;
+}
+
+.pp-social-icon{
+    font-size: 30px;
+    color: white;
 }
