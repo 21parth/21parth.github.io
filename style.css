@@ -108,6 +108,29 @@ section{
     }
 }
 
+.text-align-right{
+    text-align: right;
+}
+
+.pp-position{
+    padding: 2px 12px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.pp-dark-background{
+    background-color: black;
+    color: white;
+}
+
+.image-set{
+    
+        height: 345px;
+        width: 100%;
+        object-fit: contain;
+    
+}
 /* @media (prefers-reduced-motion: no-preference){
     .pp-bb-co-op{
         scale: .8; opacity: 0;
