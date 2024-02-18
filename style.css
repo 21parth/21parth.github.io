@@ -99,15 +99,6 @@ section{
 }
 
 
-
-
-@media only screen and (max-width: 768px) {
-    .pp-center{
-        text-align: center!important;
-        margin-bottom: 15px;
-    }
-}
-
 .text-align-right{
     text-align: right;
 }
@@ -124,13 +115,6 @@ section{
     color: white;
 }
 
-.image-set{
-    
-        height: 345px;
-        width: 100%;
-        object-fit: contain;
-    
-}
 /* @media (prefers-reduced-motion: no-preference){
     .pp-bb-co-op{
         scale: .8; opacity: 0;
@@ -142,3 +126,20 @@ section{
         to{scale: 1;opacity: 1;}
     }
 } */
+
+.img-same {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .pp-center{
+        text-align: center!important;
+        margin-bottom: 15px;
+    }
+
+    .text-align-right{
+        text-align: left;
+    }
+}
