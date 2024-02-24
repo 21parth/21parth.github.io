@@ -114,6 +114,10 @@ section{
     background-color: black;
     color: white;
 }
+.pp-light-background{
+    background-color: white;
+    color: black;
+}
 
 /* @media (prefers-reduced-motion: no-preference){
     .pp-bb-co-op{
