@@ -151,6 +151,10 @@ section{
     object-fit: cover;
 }
 
+.list-group-item.active{
+    background-color: black;
+    border: black;
+}
 @media only screen and (max-width: 768px) {
     .pp-center{
         text-align: center!important;
