@@ -52,6 +52,11 @@ section{
 .link{
     margin-right: 10px
 }
+
+.link.icon{
+    margin-top: 15px;
+    color: black;
+}
 @keyframes typing-animation {
     40%, 60%{
         left: calc(100% + 4px);
@@ -132,6 +137,10 @@ section{
     color: black;
     font-size: 20px;
     margin-left: 5px;
+}
+
+.pp-d-block{
+    display: block;
 }
 /* @media (prefers-reduced-motion: no-preference){
     .pp-bb-co-op{
